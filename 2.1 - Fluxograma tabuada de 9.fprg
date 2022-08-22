@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Luciano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-17 05:40:03 "/>
+        <attribute name="created" value="THVjaWFubztERVNLVE9QLUlFRTVHNzI7MjAyMi0wNS0xNzsiMDU6MzA6MDEgIjsyOTIx"/>
+        <attribute name="edited" value="THVjaWFubztERVNLVE9QLUlFRTVHNzI7MjAyMi0wNS0xNzsiMDU6NDA6MDMgIjsxOzMwMzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <declare name="multiplicador" type="Integer" array="False" size=""/>
+            <output expression="&quot;Tabuada do n&#250;mero 9!&quot;" newline="True"/>
+            <assign variable="multiplicador" expression="0"/>
+            <do expression="multiplicador&lt;=10">
+                <assign variable="numero" expression="9"/>
+                <output expression="&quot;9 x &quot; &amp; multiplicador &amp; &quot; = &quot; &amp; 9*multiplicador &amp; &quot;.&quot;" newline="True"/>
+                <assign variable="multiplicador" expression="multiplicador+1"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>
